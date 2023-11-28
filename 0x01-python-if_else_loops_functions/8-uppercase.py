@@ -3,8 +3,8 @@ def uppercase(str):
     for char in str:
         # Check if the character is a lowercase letter
         if 97 <= ord(char) <= 122:
-        # Convert the lowercase letter to uppercase using ASCII manipulation
-        uppercase_char = chr(ord(char) - 32)
-        print(uppercase_char, end="")
+            equival = 32
         else:
-            print(char, end="")
+            equival = 0
+        print("{:c}".format(ord(char)-equival, end = "")
+    print()
