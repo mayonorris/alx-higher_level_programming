@@ -9,6 +9,6 @@ output_start = "Last digit of {} is".format(number)
 if last_digit > 5:
     print(output_start + " {} and is greater than 5".format(last_digit))
 elif last_digit == 0:
-     print(output_start + " {} and is 0".format(last_digit))
+    print(output_start + " {} and is 0".format(last_digit))
 elif last_digit < 6 and not 0:
-     print(output_start + " {} and is less than 6 and not 0".format(last_digit))
+    print(output_start + " {} and is less than 6 and not 0".format(last_digit))
