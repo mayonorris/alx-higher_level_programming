@@ -1,4 +1,4 @@
-#!/usr/python3
+#!/usr/bin/python3
 def simple_delete(a_dictionary, key=""):
     a_dictionary = a_dictionary.copy()
     if key not in list(a_dictionary):
