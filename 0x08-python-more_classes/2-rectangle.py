@@ -3,10 +3,12 @@
 
 
 class Rectangle:
-    """Rectangle class with width, height attributes, area, and perimeter methods"""
+    """Rectangle class with width, height attributes, area, and perimeter methods
+    """
 
     def __init__(self, width=0, height=0):
-        """Initialization method with optional width and height"""
+        """Initialization method with optional width and height
+    """
         self.width = width
         self.height = height
 
