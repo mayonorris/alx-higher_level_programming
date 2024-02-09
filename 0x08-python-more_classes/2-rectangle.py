@@ -7,8 +7,7 @@ class Rectangle:
     """
 
     def __init__(self, width=0, height=0):
-        """Initialization method with optional width and height
-    """
+        """Initialization method with optional width and height"""
         self.width = width
         self.height = height
 
@@ -48,6 +47,6 @@ class Rectangle:
 
     def perimeter(self):
         """Method to calculate the rectangle perimeter"""
-        if self.__width is 0 or self.__height is 0:
+        if (self.__width is 0 or self.__height is 0):
             return (0)
         return (2 * (self.__width + self.__height))
