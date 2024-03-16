@@ -9,13 +9,13 @@ module.exports = class Rectangle {
   }
   
   rotate () {
-    let tmp = this.width;
-    this.width = this.height;
-    this.height = tmp;
+    let tmp = this.width
+    this.width = this.height
+    this.height = tmp
   }
 
   double () {
-    this.width *= 2;
-    this.height *= 2;
+    this.width *= 2
+    this.height *= 2
   }
 };
