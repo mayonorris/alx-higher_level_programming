@@ -14,7 +14,7 @@ module.exports = class Rectangle {
     this.height = tmp;
   }
   double () {
-    this.width *= this.width;
-    this.height *= this.height;
+    this.width *= 2;
+    this.height *= 2;
   }
 };
