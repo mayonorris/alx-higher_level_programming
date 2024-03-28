@@ -5,12 +5,9 @@
 
 def find_peak(list_of_integers):
     """Find a peak in a list of unsorted integers.
-
     Args:
         list_of_integers (list): A list of unsorted integers.
-
-    Returns:
-        int or None: The peak element found in the list, or None if the list is empty.
+    Returns: The peak element found in the list, or None if the list is empty.
     """
     if not list_of_integers:
         return (None)
